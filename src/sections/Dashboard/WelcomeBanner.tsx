@@ -1,5 +1,5 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
 
 const Buttons = styled.div`
   overflow: hidden;
@@ -34,7 +34,7 @@ const Buttons = styled.div`
     color: black;
     cursor: pointer;
   }
-`
+`;
 
 const Welcome = styled.div`
   @keyframes welcome-fade-in {
@@ -94,7 +94,7 @@ const Welcome = styled.div`
       padding: 40px;
     }
   }
-`
+`;
 
 export function WelcomeBanner() {
   return (
@@ -107,13 +107,12 @@ export function WelcomeBanner() {
       </div>
       <Buttons>
         <button onClick={() => window.open('https://raydium.io/liquidity/add/?coin0=sol&amount0=1&coin1=CJWRhMLr2GcSQrUaTLMhk3fpb8rBFmE6xkmnSui1bRd7&symbol1=MIMI&amount1=010000&fixed=coin0', '_blank')}>
-          Add Liqudity
-        </button>
+          Add Liquidity
         </button>
         <button onClick={() => window.open('https://raydium.io/swap/?inputCurrency=sol&outputCurrency=CJWRhMLr2GcSQrUaTLMhk3fpb8rBFmE6xkmnSui1bRd7&outputSymbol=MIMI&fixed=in', '_blank')}>
           Buy MIMI
         </button>
       </Buttons>
     </Welcome>
-  )
+  );
 }
