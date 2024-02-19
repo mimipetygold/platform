@@ -100,20 +100,18 @@ export function WelcomeBanner() {
   return (
     <Welcome>
       <div>
-        <h1>Welcome to Gamba v2 👋</h1>
+        <h1>Welcome to MimiPetyGold </h1>
         <p>
-          A fair, simple and decentralized casino on Solana.
+          A fair, simple and decentralized play on Solana.
         </p>
       </div>
       <Buttons>
-        <button onClick={() => window.open('https://v2.gamba.so/', '_blank')}>
-          🚀 Add Liqudity
+        <button onClick={() => window.open('https://raydium.io/liquidity/add/?coin0=sol&amount0=1&coin1=CJWRhMLr2GcSQrUaTLMhk3fpb8rBFmE6xkmnSui1bRd7&symbol1=MIMI&amount1=010000&fixed=coin0', '_blank')}>
+          Add Liqudity
         </button>
-        <button onClick={() => window.open('https://github.com/gamba-labs/gamba', '_blank')}>
-          👨‍💻 Build your own
         </button>
-        <button onClick={() => window.open('https://discord.gg/HSTtFFwR', '_blank')}>
-          💬 Discord
+        <button onClick={() => window.open('https://raydium.io/swap/?inputCurrency=sol&outputCurrency=CJWRhMLr2GcSQrUaTLMhk3fpb8rBFmE6xkmnSui1bRd7&outputSymbol=MIMI&fixed=in', '_blank')}>
+          Buy MIMI
         </button>
       </Buttons>
     </Welcome>
