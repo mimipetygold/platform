@@ -14,12 +14,12 @@ export const PLATFORM_SHARABLE_URL = 'v2-play.gamba.so'
 export const TOKENS: TokenMeta[] = [
   GambaStandardTokens.sol,
   GambaStandardTokens.usdc,
-  // {
-  //   mint: new PublicKey(""),
-  //   symbol: '???',
-  //   name: 'Custom SPL Token',
-  //   image: "image url",
-  //   decimals: 6,
-  //   baseWager: 1 * 1e6,
-  // }
+  {
+    mint: new PublicKey("CJWRhMLr2GcSQrUaTLMhk3fpb8rBFmE6xkmnSui1bRd7"),
+    symbol: 'MIMI',
+    name: 'MimiPety',
+    image: "https://bafybeihpwziqbs3mq2saoswbjvwh665v3rfreus3kqrtybxelwcj4ptmwi.ipfs.nftstorage.link",
+    decimals: 6,
+    baseWager: 1 * 1e6,
+  }
 ]
