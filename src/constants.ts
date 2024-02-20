@@ -19,6 +19,6 @@ export const TOKENS: TokenMeta[] = [
     name: 'MimiPety',
     image: "https://bafybeihpwziqbs3mq2saoswbjvwh665v3rfreus3kqrtybxelwcj4ptmwi.ipfs.nftstorage.link",
     decimals: 6,
-    baseWager: 1 * 1e6,
+    baseWager: 5000 * 1e6,
   }
 ]
