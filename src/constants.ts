@@ -13,7 +13,6 @@ export const PLATFORM_SHARABLE_URL = 'https://mgoldcity.vercel.app/'
 // List of tokens supported by this platform
 export const TOKENS: TokenMeta[] = [
   GambaStandardTokens.sol,
-  GambaStandardTokens.usdc,
   {
     mint: new PublicKey("CJWRhMLr2GcSQrUaTLMhk3fpb8rBFmE6xkmnSui1bRd7"),
     symbol: 'MIMI',
