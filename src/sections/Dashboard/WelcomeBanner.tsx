@@ -102,7 +102,7 @@ export function WelcomeBanner() {
       <div>
         <h1>Welcome to MGold </h1>
         <p>
-          A fair, simple and decentralized play on Solana.
+          A fair, simple and decentralized casino on Solana.
         </p>
       </div>
       <Buttons>
