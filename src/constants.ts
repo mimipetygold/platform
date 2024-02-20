@@ -8,7 +8,7 @@ export const RPC_ENDPOINT = import.meta.env.VITE_RPC_ENDPOINT ?? "https://api.ma
 export const PLATFORM_CREATOR_ADDRESS = new PublicKey('AycSbQHwZigTuc3hKWbm9AAEszocbETzgWqpgbaoVubv')
 
 // Appears in ShareModal
-export const PLATFORM_SHARABLE_URL = 'v2-play.gamba.so'
+export const PLATFORM_SHARABLE_URL = 'https://mgoldcity.vercel.app/'
 
 // List of tokens supported by this platform
 export const TOKENS: TokenMeta[] = [
